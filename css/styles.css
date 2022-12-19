@@ -38,7 +38,11 @@ line-height: 1.5;
 line-height: 1.5;
 background-color: var(--white-color);
 }
-
+.navigation {
+font-size: 16px;
+line-height: 1.5;
+ color:var(--title-text-color)
+}
 .navigation:focus,.navigation:hover {
 color: var(--acent-color);
 }
@@ -47,7 +51,8 @@ span {
     color:var(--acent-color);
 }
 
-.header-logo { color:var(--title-text-color);
+.header-logo { 
+    color:var(--title-text-color);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -100,11 +105,11 @@ letter-spacing: 0.02em;
 
 /* Sections after hero */
 
-.section {
-    background-color: var(--main-bgc);
-}
+    
 .little-headline {
-
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
 }
 .headline {
     font-weight: 600;
@@ -171,7 +176,9 @@ cursor: pointer;
 }
 .secondary-button:hover,.secondary-button:focus{
     color:var(--acent-color);
+    background-color: var(--white-color);
 }
 .primary-button:hover, .primary-button:focus {
     color:var(--white-color);   
+    background-color:var(--acent-color);
 }
